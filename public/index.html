@@ -47,6 +47,27 @@
     </div>
     <p id="load">Firebase SDK Loading&hellip;</p>
 
+    <form action = "https://firebase.google.com/books" method="GET">
+      Emai: <input type = "email" name = "email">  <br>
+      Name: <input type = "text" name = "name">    <br>
+      Active:<input type = "text" name = "active">
+      <input type = "submit" value = "Submit">
+   </form>
+
+  <form action = "https://firebase.google.com//books" method="POST">
+      Emai: <input type = "email" name = "email">  <br>
+      Name: <input type = "text" name = "name">    <br>
+      Active:<input type = "text" name = "active">
+      <input type = "submit" value = "Submit">
+   </form>
+
+   <form action = "https://firebase.google.com/books" method="DELETE">
+      Emai: <input type = "email" name = "email">  <br>
+      Name: <input type = "text" name = "name">    <br>
+      Active: <input type = "text" name = "active">
+      <input type = "submit" value = "Submit">
+   </form>
+
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         const loadEl = document.querySelector('#load');
