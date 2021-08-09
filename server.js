@@ -3,7 +3,8 @@ const cors = require("cors");
 const app = express();
 const db = require("./app/models");
 db.sequelize.sync();
-//const path = require ("path")
+const path = require ("path")
+//const firebase = require ("./app/nodejs-express-apis-firebase.json")
 
 var corsOptions = {
   origin: "http://localhost:8081"
